@@ -1,6 +1,6 @@
 import React from 'react';
 import logoHeader from '../assets/logo_header.png';
-import headerBanner from '../assets/header_banner.png';
+import headerBanner from '../assets/LED_tlw_guacui.png';
 
 export const Header = () => {
     return (
@@ -12,7 +12,7 @@ export const Header = () => {
 
             {/* Main Hero Banner Image */}
             <div className="hero-banner-container">
-                <img src={headerBanner} alt="The Love Walk - Sábado 24 de Outubro no Parque da Cidade Serra" className="hero-banner-img" />
+                <img src={headerBanner} alt="The Love Walk - Sábado 24 de Outubro na Praça João Acacinho" className="hero-banner-img" />
             </div>
         </header>
     );
